@@ -1,0 +1,164 @@
+body {
+    background-image: url(./img/descarga.jpg);
+    color: white;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    background-color: black;
+}    
+header div{
+    padding: 5px;
+}    
+
+.header img{
+    height: 180px;
+    border: 1px double white;
+    border-radius: 20px;
+}
+
+ h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+    margin: 15px 15px;
+}
+
+ h2{
+    color:rgb(190, 11, 11);
+    font-size: 20px;
+    text-align: right;
+    font-weight: 200;
+    font-style: italic;
+    margin: 10px 150px 10px 10px;
+}
+
+.header1 h1{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "roboto", sans-serif;
+}
+.header1 h2{
+    color:rgb(190, 11, 11);
+    font-size: 15px;
+    text-align: right;
+    font-weight: 200;
+    font-style: italic;
+    margin: 10px 150px 10px 10px;
+}
+
+main {
+    grid-area: main;
+    font-size: 15px;
+    font-style: italic;
+    font-family: "roboto", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+}   
+main iframe{
+    height: 250px;
+    width: 250px;
+}
+iframe{
+    border: 1px double white;
+    border-radius: 20px;
+}
+main img{
+    height: 250px;
+    width: 250px;
+    border: 1px double white;
+    border-radius: 20px;
+    
+} 
+
+
+footer{ 
+    background-color: black;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 150;
+    text-align: center;
+    max-width: 150px;
+    margin: auto; 
+}    
+footer ul li a {       
+    text-decoration: none;
+    color: rgb(69, 67, 236); 
+    
+}
+
+footer ul li a:hover {
+    background-color:green;
+}
+
+@media screen and (min-width:768px) {
+    header div{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }      
+    .header img{
+        height: 200px;
+        border: 3px double white;
+        border-radius: 40px;
+    }
+
+    .header img:hover {
+        translate: 3px;
+    }
+    
+    .header h1{
+        font-size: 50px;
+    }
+    .header h2{
+        font-size: 35px;
+    }
+    .header1 h1{
+        font-size: 50px;
+    }
+    .header1 h2{
+        font-size: 35px;
+    }
+
+    main {
+        padding: 40px;
+        font-size: 22px;
+        max-width: 800px;
+    }   
+    main iframe{
+        height: 450px;
+        width: 650px;
+    }
+    main img{
+        height: 550px;
+        width: 750px;
+    } 
+    main img:hover {
+        transform: rotate(3deg);
+    }
+    .col img {
+        height: 250px;
+        width: 350px;
+    }
+
+    footer{ 
+        background-color: black;
+        font-size: 20px;
+        max-width: 800px;
+
+    } 
+
+
+
+
+}
+
+
+
+    
